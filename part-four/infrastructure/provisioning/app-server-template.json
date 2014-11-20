@@ -21,7 +21,7 @@
     "EC2InstanceAppServer" : {
       "Type" : "AWS::EC2::Instance",
       "Properties" : {
-        "ImageId" : "ami-20bd1f57",
+        "ImageId" : "ami-f70c60cd",
         "InstanceType" : "m1.medium",
         "KeyName" : "main",
         "SubnetId" : { "Ref" : "SubnetId" },
