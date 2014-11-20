@@ -23,7 +23,7 @@
       "Properties" : {
         "ImageId" : "ami-f70c60cd",
         "InstanceType" : "m1.medium",
-        "KeyName" : "main",
+        "KeyName" : "Personal",
         "SubnetId" : { "Ref" : "SubnetId" },
         "SecurityGroupIds" : [ { "Ref" : "SecurityGroupId" } ],
         "Tags" : [ { "Key" : "Name", "Value" : { "Fn::Join" : ["", ["App Server - Build ", { "Ref" : "BuildNumber" } ] ] } } ],
